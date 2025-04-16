@@ -1,0 +1,88 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabeçalho {
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: -50px;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 20px;
+    color:  #989D9C;
+    opacity: 0.8;
+    
+}
+
+.cabeçalho > :nth-child(6) {
+    background: #665AE1;    
+    border-radius: 20.5px;
+    color: white;
+    
+    
+}
+
+
+a {
+    margin-right: 20px;
+}
+
+img {
+    display: inline-block;
+    width: 400px;
+    margin-left: 150px;
+    margin-top: 150px;
+}
+
+.textos {
+    
+    display: inline-block;
+    position: absolute;
+    margin-left: 650px;
+    margin-top: -380px;
+
+    
+}
+
+h1 {
+    font-size: 100px;
+    color: #515151;
+    font-weight: 900;
+
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    color: #515151;
+}
+
+p {
+    
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    opacity: 0.6;
+    height: 50px;
+    width: 600px;
+
+}
+
+button {
+    width: 130px;
+    height: 30px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    background: #ADFF00;
+    margin-top: 60px;
+    border: none;
+    
+
+
+}
