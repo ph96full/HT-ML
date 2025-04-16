@@ -12,39 +12,39 @@
     font-family: Montserrat;
     font-weight: 600;
     font-size: 20px;
-    color:  #989D9C;
+    color: #989D9C;
     opacity: 0.8;
-    
+
 }
 
-.cabeçalho > :nth-child(6) {
-    background: #665AE1;    
+.cabeçalho> :nth-child(6) {
+    background: #665AE1;
     border-radius: 20.5px;
     color: white;
-    
-    
+
+
 }
 
 
 a {
-    margin-right: 21px;
+    margin-right: 20px;
 }
 
 img {
     display: inline-block;
     width: 400px;
     margin-left: 150px;
-    margin-top: 151px;
+    margin-top: 150px;
 }
 
 .textos {
-    
+
     display: inline-block;
     position: absolute;
     margin-left: 650px;
     margin-top: -380px;
 
-    
+
 }
 
 h1 {
@@ -61,7 +61,7 @@ h2 {
 }
 
 p {
-    
+
     font-weight: 400;
     font-size: 20px;
     line-height: 150%;
@@ -82,7 +82,79 @@ button {
     background: #ADFF00;
     margin-top: 60px;
     border: none;
+
+}
+
+@media screen and (min-width: 430px) and (max-width: 1250px) {
+
+    img {
+       
+        position: relative;
+        width: 300px;
+        margin-left: 250px;
+        margin-top: 30px;
+        
+    }
+
+    .textos {
+         position: absolute;
+        margin-left: 150px;
+        margin-top: 50px;
+        width: 600px;
+        
+}
+h1 {
+    text-align: center;
+}
+
+p {display: none;}
+
+h2 {
+    text-align: center;
+}
+
+
+header {
+    display: none;
+
+}
+.explorer {
+    margin-left: 200px;
+}
+
+}
+
+@media screen and (max-width: 430px) {
+    img {
+       
+        position: relative;
+        width: 650px;
+        margin-left: 65px;
+        margin-top: 300px;
+}
+
+.textos {
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 130px;
+    margin-left: -135px;
     
+}
 
+h2 {
+    font-size: 80px;
+    margin-left: -135px;
+    
+}
 
+.explorer {
+    height: 150px;
+    width: 350px;
+    font-size: 50px;
+    margin-left: 80px;
+    border-radius: 150px;
+
+    }
 }
