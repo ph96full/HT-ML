@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;;
+
+}
+
+.textos {
+    height: 100%;
+    width: 60%;
+    display: inline-block;
+    margin-top: 250px;
+    margin-left: 150px;
+
+}
+
+h1 {
+   color:  rgba(93, 93, 125, 1);
+    width: 350px;
+    font-size: 50px;
+
+}
+
+p {
+    width: 360px;
+    color: rgba(93, 93, 125, 60%);
+    line-height: 25px;
+
+}
+
+button {
+    background: rgba(148, 153, 234, 1);
+    width: 120px;
+    height: 40px;
+    border-radius: 100px;
+    color: #ffffff;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+
+.cabeçalho {
+    display:inline-block ;                      
+    position: absolute;
+    background: rgba(93, 93, 125, 16%);
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    word-spacing: 30px;
+    font-size: 20px;
+    height:  100%;
+    
+}
+
+header {
+    color:rgba(93, 93, 125, 1);
+    margin-top: 10px;
+    word-spacing: 50px;
+    cursor: pointer;
+
+}
+
+header >:nth-of-type(2) {
+    opacity: 0.3;
+}
+
+img {
+    position: absolute;
+    width: 300px;
+    margin-top: 130px;
+    margin-left: -290px;
+}
+
+@media screen and (max-width: 750px) {
+
+    .textos {
+        margin-left: 50px;
+        margin-top: 100px;
+        width: 250px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 52px;
+        margin-left: 100px;
+        width: 200px;
+
+        
+        }
+    p {
+        width: 296px;
+        margin-top: 20px;
+        font-size: 14px;
+        margin-left: 50px;
+    }
+
+    .cabeçalho {
+        display: block;
+        width: 500px;
+    }
+
+    header {
+        display: none;
+    }
+
+    button {
+        margin-left: 100px;
+        margin-bottom: 50px;
+        width: 200px;
+        height: 60px;
+        font-size: 20px;
+        }
+
+        img {
+         width: 350px;
+         height: 420px;
+         margin-left: -180px;
+        }
+
+
+}
+
+
+
+
+
+
